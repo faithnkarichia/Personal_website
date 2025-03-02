@@ -149,7 +149,7 @@ main button:hover {
   margin-top: 100px;
   margin-bottom: 100px;
 
-  background-image: url("/Personal_website/images/lamp.jpg");
+  background-image: url('/Personal_website/images/lamp.jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
