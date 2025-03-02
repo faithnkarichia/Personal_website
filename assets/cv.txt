@@ -1,0 +1,66 @@
+﻿Faith Nkarichia
+ Software Developer
+ [faynkarichia@gmail.com] | [0768692489] | 
+________________
+
+
+Professional Summary
+Passionate and detail-oriented software developer with expertise in JavaScript, React, HTML, and CSS. A problem-solver with a strong desire to learn and create efficient, user-friendly applications. Known for writing clean, maintainable code and continuously improving through hands-on experience.
+________________
+
+
+Skills
+* Programming Languages: JavaScript, HTML, CSS, Python
+* Front-End Technologies: React, Bootstrap, Tailwind CSS
+* Version Control: Git, GitHub
+* Other Skills: Responsive Web Design, Debugging, API Integration
+________________
+
+
+Projects
+Weather App
+* Built a weather application that fetches real-time weather data using an API.
+* Implemented a user-friendly interface with dynamic updates.
+* Enhanced skills in working with APIs and handling asynchronous JavaScript.
+To-Do List App
+* Designed and developed a to-do list with local storage functionality.
+* Integrated a note feature to allow users to save additional details.
+* Strengthened knowledge of JavaScript arrays and objects.
+Quiz App
+* Developed an interactive quiz application to test users on various topics.
+* Utilized JavaScript for dynamic content updates and score tracking.
+________________
+
+
+Work Experience
+Software Development Student – Moringa School
+ Feb 2025 – Present
+* Gaining hands-on experience in full-stack development.
+* Working on real-world projects and improving problem-solving skills.
+* Collaborating with peers and mentors to build industry-ready applications.
+________________
+
+
+Education
+Software Development Bootcamp
+ Moringa School | 2025
+________________
+
+
+Certifications & Achievements
+* Successfully built and deployed multiple front-end projects.
+* Continuously learning advanced JavaScript concepts and React development.
+________________
+
+
+Hobbies & Interests
+* Cooking & Baking: Passionate about creating delicious meals.
+* Nature Walks: Enjoys exploring nature for relaxation.
+* Fashion: Loves upgrading her wardrobe and styling outfits.
+* Luxury Cars: Dreams of experiencing various luxury vehicles.
+________________
+
+
+References
+Available upon request.
+________________
