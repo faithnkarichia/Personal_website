@@ -58,7 +58,7 @@ main {
   height: 100vh;
 
   text-align: center;
-  background-image: url('./images/laptop_main.jpg');
+  background-image: url('/Personal_website/images/laptop_main.jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
