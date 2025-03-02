@@ -1,0 +1,287 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  display: grid;
+  grid-template-areas:
+    "nav nav nav nav nav nav nav"
+    "main main main main main main main "
+    "skills skills skills skills skills skills skills"
+    "projects projects projects projects projects projects projects"
+    "recomendations recomendations recomendations recomendations recomendations recomendations recomendations"
+    "fun-facts fun-facts fun-facts fun-facts fun-facts fun-facts fun-facts "
+    " footer footer footer footer footer footer footer";
+  padding: 2px;
+  background-color: #eceff1;
+}
+
+nav {
+  grid-area: nav;
+  background-color: #263238;
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+
+  color: #eceff1;
+}
+nav ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #78909c;
+}
+main {
+  grid-area: main;
+  margin-top: 10vh;
+
+  height: 100vh;
+
+  text-align: center;
+  background-image: url(/images/laptop_main.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+main img {
+  width: 150px;
+  height: 150px;
+  margin-top: 150px;
+  border-radius: 50%;
+}
+main p {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 50px;
+  color: #eceff1;
+}
+main button {
+  margin-top: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  color: #263238;
+  background-color: #cfd8dc;
+  cursor: pointer;
+}
+main button:hover {
+  margin-top: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  color: #eceff1;
+  background-color: #607d8b;
+}
+.skills {
+  grid-area: skills;
+  background-color: #cfd8dc;
+  margin: 100px auto;
+  padding: 30px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  width: 500px;
+}
+.skills ul {
+  list-style: none;
+}
+.skills h2 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #263238;
+}
+.skills ul li {
+  font-size: 30px;
+  padding: 10px;
+  color: #263238;
+  cursor: pointer;
+}
+
+.projects {
+  display: grid;
+  grid-area: projects;
+  background-color: transparent;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+.projects img {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  transition: filter o.3s ease-in-out;
+}
+
+.projects img:hover {
+  filter: brightness(80%);
+
+  cursor: pointer;
+}
+.projects h4 {
+  margin-bottom: 5px;
+}
+.recomendations {
+  display: grid;
+  grid-area: recomendations;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  background-image: url(/images/lamp.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+  grid-template-areas:
+    "h2 h2 h2"
+    "one two three";
+}
+.recomendations h2 {
+  grid-area: h2;
+  text-align: center;
+  margin-top: 50px;
+  color: #eceff1;
+  font-weight: bold;
+  font-size: 30px;
+}
+.recomendations img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.one {
+  grid-area: one;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  margin: 40px;
+  line-height: 2;
+
+  border-radius: 10px;
+  background-color: #eceff1;
+  color: #263238;
+}
+.two {
+  grid-area: two;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  margin: 40px;
+  line-height: 2;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  background-color: #eceff1;
+  color: #263238;
+}
+.three {
+  grid-area: three;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  margin: 40px;
+  line-height: 2;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  background-color: #eceff1;
+  color: #263238;
+}
+
+.fun-facts {
+  grid-area: fun-facts;
+  background-color: #cfd8dc;
+
+  width: 1500px;
+  margin: 0 auto;
+  line-height: 2;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+footer {
+  grid-area: footer;
+  background-color: #263238;
+  color: #eceff1;
+  text-align: center;
+
+  margin-top: 100px;
+  height: 15vh;
+  padding: 20px;
+}
+footer h2 {
+  margin-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #eceff1;
+  padding: 20px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 780px) {
+  nav ul {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin-bottom: 10px;
+  }
+
+  main img {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+  }
+
+  main p {
+    font-size: 24px;
+  }
+
+  .skills, .projects, .recomendations, .fun-facts {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .recomendations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .one, .two, .three {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}
