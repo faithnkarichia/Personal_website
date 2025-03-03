@@ -29,7 +29,8 @@ Open `index.html` directly in browser
 ### AOB
 
 - Responsive breakpoints set at 780px using media queries
-
+- The download button can download the cv
+- Annimated text on my landing page
 
 
 
